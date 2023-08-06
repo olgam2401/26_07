@@ -5,59 +5,103 @@
     <title>HTML&CSS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="margin: 0; padding: 0;">
+<body>
 
     <!-- Header -->
-    <header
-        style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
+    <header>
         <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
         <div>
             <a href="#vasara">Vasara</a>
             <a href="#plava">Uzdevumi</a>
         </div>
     </header>
-
-    <div id="pavasaris">
-        <img src="resources/Pavasaris.jpg" alt="Pavasaris">
-        <div>
-            <h1>Pavasaris</h1>
+    <div><img class="w-100" src="resources/Pavasaris.jpg" alt="Pavasaris"></div><br>
+    <main>
+        <div id="pavasaris" class="d-flex-f-d-row">
+            <img src="resources/Pavasaris.jpg" alt="Pavasaris">
+            <div>
+                <h1>Pavasaris</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod expedita neque quisquam dolorem
+                    voluptate,praesentium possimus autem aut rem quibusdam error aperiam delectus rerum enim ullam
+                    voluptas fugit, nemo esse?</p>
+            </div>
         </div>
-        <div>
-            <div id="vasara">
-                <img src="resources/Vasara.jpg" alt="Vasara">
+        <hr>
+        <div id="vasara">
+            <img src="resources/Vasara.jpg" alt="Vasara">
+            <div>
                 <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem recusandae corrupti fugit totam
+                    sapiente
+                    sunt suscipit voluptatum officia nam officiis? Vitae temporibus velit cum quos iste! Consectetur
+                    ullam
+                    soluta numquam?
+                </p><br>
             </div>
+        </div>
+        <hr>
+        <div id="plava" class="d-flex-f-d-row">
 
-            <div id="plava" style="display: flex; flex-direction: row;">
-                <div style="display: block;">
-                    <img style="display: block; width:100%" src="resources/Plava.jpg" alt="Plava">
-                </div>
-                <div style="display: block;">
-                    <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
-                </div>
+            <img src="resources/Plava.jpg" alt="Plava">
+
+            <div class="d-block">
+                <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla id, delectus excepturi itaque
+                    illum
+                    officiis. Inventore quo ex quam vero ratione consectetur debitis quas commodi quis necessitatibus,
+                    animi
+                    quibusdam.
+
+                </p>
             </div>
+        </div>
 
-            <!-- Exercises -->
-            <div id="exercises">
-                <h1>Uzdevumi</h1><br>
-                <p>Nomaini visiem tekstiem fontu.</p>
-                <p>Sakārto bilžu un tekstu novietojumu.</p>
-                <p>Pieliec tekstu zem virsrakstiem.</p>
-                <p>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</p>
-                <p>Pieliec stilu header daļai, lai tā atgādinātu header.</p>
-                <p>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</p>
-                <p>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</p>
-                <p>Pievieno karti.</p>
-                <p>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</p>
-            </div>
+        <!-- Exercises -->
+        <div id="exercises">
+            <h1>Uzdevumi</h1><br>
+            <li>Nomaini visiem tekstiem fontu.</li>
+            <li>Sakārto bilžu un tekstu novietojumu.</li>
+            <li>Pieliec tekstu zem virsrakstiem.</li>
+            <li>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</li>
+            <li>Pieliec stilu header daļai, lai tā atgādinātu header.</li>
+            <li>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</li>
+            <li>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</li>
+            <li>Pievieno karti.</li>
+            <li>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</li>
+            <br>
+        </div>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190029.11507011764!2d12.371191671408676!3d41.90995327593088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C%20Metropolitan%20City%20of%20Rome%20Capital%2C%20Italy!5e0!3m2!1sen!2slv!4v1691309530438!5m2!1sen!2slv"
+            width="600" height="450" class="b-0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <!-- Footer -->
-            <footer>
-                <p>Šeit ir tukšs footers</p>
-                <p>Šeit ir tukšs footers vēlreiz</p>
-            </footer>
+        <br>
+        <table border="1" cellspacing="0" cellpadding="0">
+
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+
+            </tr>
+        </table>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Šeit ir tukšs footers</p>
+        <p>Šeit ir tukšs footers vēlreiz</p>
+    </footer>
 
 </body>
 

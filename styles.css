@@ -1,0 +1,60 @@
+header {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+}
+
+.d-block {
+    display: block;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.b-0 {
+    border: 0;
+}
+
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#vasara {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.d-flex-f-d-row {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    background-color: lightcoral;
+}
+
+img {
+    padding: 12px 24px;
+}
+
+p {
+    margin: 0%;
+}
+
+main {
+    max-width: 30rem;
+}
